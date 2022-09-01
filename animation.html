@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @keyframes anima {
+            0% {
+                margin-left: 0%;
+                background-color: red;
+            }
+
+            40% {
+                margin-right: 40%;
+                background-color: blue;
+                transform: translate(300px);
+            }
+
+        }
+
+        p {
+            animation: anima 5s linear 0.5s infinite alternate;
+            animation-play-state: running;
+            border: 1px solid black;
+            text-align: center;
+
+        }
+    </style>
+</head>
+
+<body>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda, earum?</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda, earum?</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda, earum?</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda, earum?</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda, earum?</p>
+
+</body>
+
+</html>
